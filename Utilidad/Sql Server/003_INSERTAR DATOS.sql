@@ -17,6 +17,7 @@ insert into TIPO_PERSONA(IdTipoPersona, Descripcion) values
 (3,'Cliente')
 
 go
+select * from PERSONA
 
 
 insert into PERSONA(documento,nombre,apellido,correo,clave,IdTipoPersona) values
